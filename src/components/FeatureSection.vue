@@ -9,7 +9,7 @@
         </p>
       </div>
       <div class="my-24 flex flex-col md:flex-row text-center md:text-left px-5 md:px-0">
-        <div class="md:w-3/12 md:mr-10 bg-red-400">
+        <div class="md:w-3/12 md:mr-10">
           <img
             class="pb-6"
             src="./../assets/images/icon-online.svg"
