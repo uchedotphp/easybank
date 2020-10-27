@@ -2,7 +2,7 @@
   <div class="container mx-auto mb-3">
     <div class="flex justify-between pt-6 px-6 md:px-0 items-center">
       <img src="./../assets/images/logo.svg" alt=""/>
-      <div class="capitalize text-gray-500">
+      <div class="capitalize text-grayishBlue">
         <span class="">
             <a class="mx-4 pb-6 border-b-4 border-transparent hover:border-limeGreen hover:text-black" href="">
                 home

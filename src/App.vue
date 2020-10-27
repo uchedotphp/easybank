@@ -2,17 +2,20 @@
   <div>
     <NavigationMenu />
     <JumbotronBanner />
+    <FeatureSection />
   </div>
 </template>
 
 <script>
 import NavigationMenu from '@/components/NavigationMenu';
 import JumbotronBanner from '@/components/JumbotronBanner';
+import FeatureSection from '@/components/FeatureSection';
 export default {
   name: 'App',
   components: {
     NavigationMenu,
-    JumbotronBanner
+    JumbotronBanner,
+    FeatureSection
   },
 }
 </script>
