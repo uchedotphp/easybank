@@ -15,7 +15,7 @@
         </button>
       </div>
       <div
-        class="md:-mr-32 md:-mt-32 md:pl-32 md:bg-contain bg-no-repeat md:bg-left-top md:bg-hero-pattern order-first md:order-none -mt-32 bg-hero bg-right-bottom bg-contain z-10"
+        class="md:-mr-32 md:-mt-32 md:pl-32 md:bg-contain bg-no-repeat md:bg-left-top md:bg-hero-pattern order-first md:order-none -mt-32 bg-hero-pattern bg-hero bg-right-bottom bg-contain z-10"
       >
         <img src="./../assets/images/image-mockups.png" alt="" srcset="" />
       </div>
@@ -30,11 +30,23 @@ export default {
 </script>
 
 <style lang="css" scoped>
-.bg-hero {
+/* .bg-hero {
+  background-image: url("./../assets/images/bg-intro-mobile.svg");
+} */
+
+/* .bg-hero-pattern {
+  background-image: url("./../assets/images/bg-intro-desktop.svg");
+} */
+
+@media only screen and (max-width: 640px) {
+  .bg-hero {
   background-image: url("./../assets/images/bg-intro-mobile.svg");
 }
+}
 
+@media only screen and (min-width: 640px) {
 .bg-hero-pattern {
   background-image: url("./../assets/images/bg-intro-desktop.svg");
+}
 }
 </style>
