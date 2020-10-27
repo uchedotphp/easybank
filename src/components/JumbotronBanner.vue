@@ -1,14 +1,13 @@
 <template>
-  <div class="mx-auto overflow-hidden pl-64 bg-veryLightGray">
-    <div class="flex justify-between items-center">
-      <div class="pl-6 w-5/12">
-        <h1 class="text-6xl">Next generation digital banking</h1>
-        <p class="text-gray-500 text-2xl my-8">
+  <div class="mx-auto overflow-hidden md:pl-64 bg-veryLightGray">
+    <div class="flex flex-col md:flex-row md:justify-between md:items-center">
+      <div class="md:pl-6 md:w-5/12 text-center md:text-left px-5 md:pr-0">
+        <h1 class="text-5xl md:text-6xl">Next generation digital banking</h1>
+        <p class="text-gray-500 text-xl md:text-2xl my-8">
           Take your financial life online. Your Easybank account will be a
           one-stop-shop for spending, saving, budgeting, investing and much
           more.
         </p>
-
         <button
           class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 px-8 text-white font-bold"
         >
@@ -16,7 +15,7 @@
         </button>
       </div>
       <div
-        class="-mr-32 -mt-32 pl-32 bg-contain bg-no-repeat bg-left-top bg-hero-pattern"
+        class="md:-mr-32 md:-mt-32 md:pl-32 md:bg-contain bg-no-repeat md:bg-left-top md:bg-hero-pattern order-first md:order-none -mt-32 bg-hero bg-right-bottom bg-contain"
       >
         <img src="./../assets/images/image-mockups.png" alt="" srcset="" />
       </div>
@@ -31,6 +30,10 @@ export default {
 </script>
 
 <style lang="css" scoped>
+.bg-hero {
+  background-image: url("./../assets/images/bg-intro-mobile.svg");
+}
+
 .bg-hero-pattern {
   background-image: url("./../assets/images/bg-intro-desktop.svg");
 }
