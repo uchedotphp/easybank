@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto mb-3">
     <div class="flex justify-between pt-6 px-6 md:px-0 items-center">
       <img src="./../assets/images/logo.svg" alt=""/>
       <div class="capitalize text-gray-500">

@@ -1,15 +1,18 @@
 <template>
   <div>
     <NavigationMenu />
+    <JumbotronBanner />
   </div>
 </template>
 
 <script>
 import NavigationMenu from '@/components/NavigationMenu';
+import JumbotronBanner from '@/components/JumbotronBanner';
 export default {
   name: 'App',
   components: {
     NavigationMenu,
+    JumbotronBanner
   },
 }
 </script>
