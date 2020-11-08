@@ -3,9 +3,9 @@
     <div
       class="container mx-auto flex flex-col md:flex-row md:justify-between justify-center"
     >
-      <div class="md:grid md:grid-cols-2">
-        <div class="">
-          <div class="justify-center flex md:justify-start">
+      <div class="md:grid md:grid-cols-3">
+        <div class="md:mr-24">
+          <div class="justify-center flex md:justify-start md:pb-12">
             <img src="./../assets/images/logoWhite.svg" alt="" srcset="" />
           </div>
           <ul class="py-8 md:pb-0 flex justify-center">
@@ -57,36 +57,38 @@
           </ul>
         </div>
 
-        <ul class="capitalize text-grayishBlue text-center">
-          <li class="py-1 md:pt-0">
+        <ul class="capitalize text-grayishBlue text-center md:text-justify md:ml-6">
+          <li class="py-1 md:pb-4">
             <a class="hover:text-limeGreen" href=""> about us </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 md:pb-4">
             <a class="hover:text-limeGreen" href=""> contact </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 md:pb-0">
             <a class="hover:text-limeGreen" href=""> blog </a>
           </li>
-          <li class="py-1">
+        </ul>
+        <ul class="capitalize text-grayishBlue text-center md:text-justify">
+          <li class="py-1 md:pb-4">
             <a class="hover:text-limeGreen" href=""> careers </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 md:pb-4">
             <a class="hover:text-limeGreen" href=""> support </a>
           </li>
-          <li class="py-1">
+          <li class="py-1 md:pb-0">
             <a class="hover:text-limeGreen" href=""> privacy policy </a>
           </li>
         </ul>
       </div>
       <div class="">
-        <div class="flex justify-center md:justify-end">
+        <div class="flex justify-center md:justify-end md:pb-6">
           <button
             class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 my-6 md:mt-0 px-8 text-white font-bold"
           >
             request invite
           </button>
         </div>
-        <div class="capitalize text-grayishBlue py-3 text-center">
+        <div class="capitalize text-grayishBlue py-3 md:py-0 text-center">
           &#169; easybank. all rights reserved.
         </div>
       </div>
