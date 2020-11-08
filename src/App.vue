@@ -4,6 +4,7 @@
     <JumbotronBanner />
     <FeatureSection />
     <BlogSection />
+    <FooterSection />
   </div>
 </template>
 
@@ -12,13 +13,15 @@ import NavigationMenu from '@/components/NavigationMenu';
 import JumbotronBanner from '@/components/JumbotronBanner';
 import FeatureSection from '@/components/FeatureSection';
 import BlogSection from '@/components/BlogSection';
+import FooterSection from '@/components/FooterSection';
 export default {
   name: 'App',
   components: {
     NavigationMenu,
     JumbotronBanner,
     FeatureSection,
-    BlogSection
+    BlogSection,
+    FooterSection
   },
 }
 </script>
