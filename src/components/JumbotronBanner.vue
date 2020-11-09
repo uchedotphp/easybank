@@ -1,4 +1,5 @@
 <template>
+<!-- <div class="overlay"> -->
   <div class="mx-auto overflow-hidden md:pl-64 bg-veryLightGray pb-24 md:pb-0">
     <div class="flex flex-col md:flex-row md:justify-between md:items-center">
       <div class="md:pl-6 md:w-5/12 text-center md:text-left px-5 md:pr-0">
@@ -23,6 +24,7 @@
       </div>
     </div>
   </div>
+<!-- </div> -->
 </template>
 
 <script>
@@ -36,6 +38,16 @@ export default {
   .bg-hero {
     background-image: url("./../assets/images/bg-intro-mobile.svg");
   }
+
+  /* .overlay { */
+  /* background-color: crimson; */
+  /* z-index: 90; */
+  /* height: 100%; */
+  /* position: fixed; */
+  /* left: 0;
+  top: 0; */
+  /* background-color: rgba(0,0,0, 0.9); Black w/opacity */
+  /* } */
 }
 
 @media only screen and (min-width: 768px) {
