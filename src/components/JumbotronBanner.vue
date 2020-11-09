@@ -32,13 +32,13 @@ export default {
 </script>
 
 <style lang="css" scoped>
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 768px) {
   .bg-hero {
     background-image: url("./../assets/images/bg-intro-mobile.svg");
   }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 768px) {
   .bg-hero-pattern {
     background-image: url("./../assets/images/bg-intro-desktop.svg");
   }
