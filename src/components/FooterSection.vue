@@ -83,7 +83,7 @@
       <div class="">
         <div class="flex justify-center md:justify-end md:pb-6">
           <button
-            class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 my-6 md:mt-0 px-8 text-white font-bold"
+            class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 my-6 md:mt-0 px-8 text-white font-bold hover:bg-gradient-to-r hover:from-fadedLimeGreen hover:to-fadedBrightCyan"
           >
             request invite
           </button>

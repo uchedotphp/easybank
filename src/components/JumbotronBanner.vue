@@ -12,7 +12,7 @@
           more.
         </p>
         <button
-          class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 px-8 text-white font-bold"
+          class="rounded-full capitalize bg-gradient-to-r from-limeGreen to-brightCyan py-3 px-8 text-white font-bold hover:bg-gradient-to-r hover:from-fadedLimeGreen hover:to-fadedBrightCyan"
         >
           request invite
         </button>
